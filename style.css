@@ -1,0 +1,71 @@
+/*
+body back color: rgb(9, 9, 51)
+Text back volor: rgba(16, 63, 85, 0.7)
+Erdekes back color: rgb(23, 181, 243)
+menu back color: rgb(45, 10, 4)
+menu hoover back color: rgb(83, 21, 10)
+menu text color: rgb(226, 105, 25)
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(9, 9, 51);
+    text-align: center;
+    color: white;
+}
+
+/*Alap formázásai*/
+.alap{
+    flex-direction: column;
+    min-height: 1500px;
+    margin: auto;
+    width: 1300px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/*Header formázásai*/
+header{
+    background-color: rgb(45, 10, 4);
+    width: 80%;
+
+}
+
+/*Nav bar formázásai*/
+.nav{
+    order: -1;
+    background-color: green;
+    align-self: stretch;
+    width: 20%;
+}
+
+/*Article mező formázásai*/
+.article{
+    background-color: greenyellow;
+}
+
+/*Asside mező formázásai*/
+.asside{
+    background-color: rgb(23, 181, 243);
+}
+
+/*Footer formázásai*/
+footer{
+    background-color: rgb(45, 10, 4);
+}
+
+@media only screen and (max-width: 1365px){
+    .alap{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+
+}
